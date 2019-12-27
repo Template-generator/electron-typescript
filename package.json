@@ -2,21 +2,26 @@
   "name": "electron-quick-start",
   "version": "1.0.0",
   "description": "A minimal Electron application",
-  "main": "main.js",
+  "main": "dist/main.js",
   "scripts": {
-    "start": "electron ."
+    "build": "tsc",
+    "lint": "eslint \"src/**/*.ts\"",
+    "start": "tsc && electron ."
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "Electron"
   ],
-  "author": "GitHub",
+  "author": "Kamontat Chantrachirathumrong",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^7.1.7"
+    "@typescript-eslint/eslint-plugin": "2.13.0",
+    "@typescript-eslint/parser": "2.13.0",
+    "electron": "7.1.7",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.9.0",
+    "eslint-plugin-prettier": "3.1.2",
+    "prettier": "1.19.1",
+    "typescript": "3.7.4"
   }
 }
