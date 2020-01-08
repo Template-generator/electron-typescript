@@ -1,0 +1,37 @@
+dependencies:
+  '@rush-temp/utils-errors': 'file:projects/utils-errors.tgz'
+  '@rush-temp/utils-loggers': 'file:projects/utils-loggers.tgz'
+  typescript: 3.7.4
+packages:
+  /typescript/3.7.4:
+    dev: false
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-A25xv5XCtarLwXpcDNZzCGvW2D1S3/bACratYBx2sax8PefsFhlYmkQicKHvpYflFS8if4zne5zT5kpJ7pzuvw==
+  'file:projects/utils-errors.tgz':
+    dependencies:
+      typescript: 3.7.4
+    dev: false
+    name: '@rush-temp/utils-errors'
+    resolution:
+      integrity: sha512-PkmZohFlTLQ4hH3DhfX1Z5rwiJ6wwY7dldf9ujJBBMUdlDCdovDSqBQGmR2TSMPXnc5Z0X/6fRkv1vygRxA19A==
+      tarball: 'file:projects/utils-errors.tgz'
+    version: 0.0.0
+  'file:projects/utils-loggers.tgz':
+    dependencies:
+      typescript: 3.7.4
+    dev: false
+    name: '@rush-temp/utils-loggers'
+    resolution:
+      integrity: sha512-ITlkq1YUl+cxylZAVWa8/ei3Eou2WLPnVWgDx3nY2B+oaN0sCKTHxuqllXvgfSJf6j9KaNJnQrMFoponf9D7gQ==
+      tarball: 'file:projects/utils-loggers.tgz'
+    version: 0.0.0
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  '@rush-temp/utils-errors': 'file:./projects/utils-errors.tgz'
+  '@rush-temp/utils-loggers': 'file:./projects/utils-loggers.tgz'
+  typescript: 3.7.4
