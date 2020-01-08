@@ -1,0 +1,24 @@
+version: 4
+commit:
+  keys:
+    - type: feat
+      value: Introducing new features.
+    - type: impr
+      value: Improving user experience / usability / reliablity.
+    - type: fix
+      value: Fixing a bug.
+    - type: refac
+      value: A code change that neither fixes a bug nor adds a feature.
+    - type: chore
+      value: Other changes that don't modify src or test files.
+  scopes:
+    - type: core
+      value: Core features of application
+    - type: models
+      value: Application models
+    - type: controllers
+      value: User interface controller
+    - type: utils
+      value: Misc. utils for internal used
+    - type: deps
+      value: Dependencies related
